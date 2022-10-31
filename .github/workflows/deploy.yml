@@ -42,7 +42,7 @@ jobs:
       uses: actions/setup-node@v2
     - name: Building frontend
       run: |
-        npm install 
+        npm install --force
         npm run build
     - name: Setup python 3.8
       uses: actions/setup-python@v2
