@@ -18,8 +18,8 @@ import os
 # Load environment variables
 load_dotenv()
 
-path=os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']=path
+# path=os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS']=path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
