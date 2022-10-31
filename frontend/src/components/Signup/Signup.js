@@ -78,7 +78,7 @@ export default function Signup(props){
           </button>
         </div>
         <p className="forgot-password text-right">
-          Already registered <a href="/signin">sign in?</a>
+          Already registered <button className="btn-link" onClick={() => {navigate('/signin')}}>sign in?</button>
         </p>
         {loader ? <CircularProgress sx={{ml:10, mt:5}}/> : null} 
       </form>

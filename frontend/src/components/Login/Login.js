@@ -52,7 +52,7 @@ export default function Login(props) {
           </button>
         </div>
         <p className="forgot-password text-right">
-          Not registered <a href="/signup">sign up?</a>
+          Not registered <button className="btn-link" onClick={() => {navigate('/signup')}}>sign up?</button>
         </p>
         {loader ? <CircularProgress sx={{ml:10, mt:5}}/> : null} 
       </form>
