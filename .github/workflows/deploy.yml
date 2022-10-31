@@ -38,12 +38,6 @@ jobs:
         echo  DJANGO_SECRET_KEY="${{ secrets.DJANGO_SECRET_KEY }}" >> .env
         echo  GOOGLE_APPLICATION_CREDENTIALS="${{ secrets.SERVICE_ACCOUNT }}"
 
-    - name: Setup Node
-      uses: actions/setup-node@v2
-    - name: Building frontend
-      run: |
-        npm install --force
-        npm run build
     - name: Setup python 3.8
       uses: actions/setup-python@v2
       with:
