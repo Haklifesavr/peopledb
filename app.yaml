@@ -13,4 +13,4 @@ handlers:
 - url: /.*
   script: auto
 
-entrypoint: gunicorn -b :$PORT peopledb.wsgi
+entrypoint: gunicorn -b :$PORT peopledb_backend.wsgi
