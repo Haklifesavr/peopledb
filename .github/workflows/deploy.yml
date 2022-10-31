@@ -15,7 +15,7 @@ jobs:
   deploy:
     name: Deploying to Google Cloud
     runs-on: ubuntu-latest
-    ##### ANY SECRETS WHICH ARE TO BE SET AS ENV's ON UBUNTU LATEST IMAGE BEFORE DEPLOYMENT, THIS DOESNOT SET ENV's FOR APP ENGINE
+    ##### ANY SECRETS WHICH ARE TO BE SET AS ENV's ON UBUNTU LATEST IMAGE BEFORE DEPLOYMENT. THIS DOESNOT SET ENV's FOR APP ENGINE
     # env:
     #   DB_NAME: ${{ secrets.DB_NAME_HARIS}}
     #   DB_USER: ${{ secrets.DB_USER_HARIS}}
