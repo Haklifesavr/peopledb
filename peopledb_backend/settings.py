@@ -79,7 +79,10 @@ CORS_ALLOW_HEADERS = ["*"]
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "frontend/build")],
+        "DIRS": [            
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR,'frontend/build'),
+            ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -192,14 +195,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "/static/"
+REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend')
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-REACT_APP_DIR = os.path.join(BASE_DIR, "frontend")
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(REACT_APP_DIR, "build", "static"),
+     os.path.join(REACT_APP_DIR, 'build', 'static'),
 ]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
+
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000000000
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
