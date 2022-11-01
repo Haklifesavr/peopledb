@@ -194,5 +194,6 @@ build/
 
 #credential for gcp
 credentials.json
+package-lock.json
 
 
