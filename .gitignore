@@ -187,9 +187,9 @@ sketch
 
 elastic_config.py
 
-*/build/*
-build/
-/build
+# */build/*
+# build/
+# /build
 
 
 #credential for gcp
