@@ -11,6 +11,7 @@
 # below:
 .git
 .gitignore
+node_modules/
 *.log/
 temp/
 *.exe
