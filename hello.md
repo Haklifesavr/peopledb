@@ -12,6 +12,6 @@ Hi, _This_ is *Haris*
 - b
 - c
 
-```jsx
+```
 const a = 1 +2
 ```
