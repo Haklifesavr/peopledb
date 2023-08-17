@@ -9,6 +9,7 @@ Hi,  This  is  *Haris*
 - a
 - b
 - c
-```const a = 1 + 2 
+```
+const a = 1 + 2 
 const b = a - 3
 ```
