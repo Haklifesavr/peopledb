@@ -1,8 +1,6 @@
-# Untitled
+Hi, This is  *Haris*
 
-Hi, ~~This~~ is **Haris**
-
-Hi, _This_ is *Haris*
+Hi,  This  is  *Haris*
 
 آپ کیسے ہو
 
@@ -11,7 +9,6 @@ Hi, _This_ is *Haris*
 - a
 - b
 - c
-
-```
-const a = 1 +2
+```const a = 1 + 2 
+const b = a - 3
 ```
