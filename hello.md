@@ -1,6 +1,6 @@
 # Untitled 
 
-<img src="doc.svg" alt="Alt File" width="4%" style = "color:white"/> File One
+-> File One
 
 Hi, This is  **Haris Ahmed**
 
