@@ -1,6 +1,6 @@
 # Untitled 
 
-![Alt File](https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/regular/file-lines.svg) File One
+<img src="https://github.com/FortAwesome/Font-Awesome/blob/6.x/svgs/regular/file-lines.svg" alt="Alt File" width="50%" /> File One
 
 Hi, This is  **Haris Ahmed**
 
