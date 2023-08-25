@@ -1,6 +1,6 @@
 # Untitled 
 
-<img src="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" alt="Alt File" width="2.5%" style = "color:white"/> File One
+<img src="doc.svg" alt="Alt File" width="2.5%" style = "color:white"/> File One
 
 Hi, This is  **Haris Ahmed**
 
